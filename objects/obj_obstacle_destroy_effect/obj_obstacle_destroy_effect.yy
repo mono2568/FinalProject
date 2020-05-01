@@ -1,18 +1,18 @@
 {
-    "id": "5ba9c597-0179-4396-aa75-7e64b84f6dd6",
+    "id": "42af23da-4b5e-4a44-a9fa-fbfbf8ceef39",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_needle",
+    "name": "obj_obstacle_destroy_effect",
     "eventList": [
         {
-            "id": "b0113d7b-7914-4480-8007-cdfc2a126053",
+            "id": "97172c89-b6ab-427c-a96c-756cce977d3e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "5ba9c597-0179-4396-aa75-7e64b84f6dd6"
+            "eventtype": 3,
+            "m_owner": "42af23da-4b5e-4a44-a9fa-fbfbf8ceef39"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00a8f1d5-f4a0-4660-9631-f33dfae0f6a3",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

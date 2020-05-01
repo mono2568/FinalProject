@@ -2,5 +2,24 @@ if(obj_player.falling == false and obj_player.jumping == false and global.gameOv
 	var par = instance_create_layer(obj_player.x,obj_player.y+7,"Instances",obj_particle);
 	par.image_angle = random_range(140,180);
 	par.direction = par.image_angle;
-	par.sprite_index = particleSprite;
+	if(obj_player.playerColor == 0){
+		// effect when blue
+		if(effectNum == 1){
+			par.sprite_index = spr_run_particle_blue;
+		}else if(effectNum == 2){
+			par.sprite_index = spr_run_particle_blue2;
+		}else if(effectNum == 3){
+			par.sprite_index = spr_run_particle_blue3;
+		}
+	
+	}else{
+		//effect when pink
+		if(effectNum == 1){
+			par.sprite_index = spr_run_particle_pink;
+		}else if(effectNum == 2){
+			par.sprite_index = spr_run_particle_pink2;
+		}else if(effectNum == 3){
+			par.sprite_index = spr_run_particle_pink3;
+		}
+	}
 }

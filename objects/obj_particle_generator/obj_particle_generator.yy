@@ -33,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "c1fe7898-e572-4347-aab7-3b0fa9362bc1",
+            "id": "870bf7db-dc42-4697-9d7c-6961254407ca",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -42,9 +42,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "spr_run_particle",
-            "varName": "particleSprite",
-            "varType": 5
+            "value": "1",
+            "varName": "effectNum",
+            "varType": 0
         }
     ],
     "solid": false,

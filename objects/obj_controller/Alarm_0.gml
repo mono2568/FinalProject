@@ -19,10 +19,10 @@ if(i.objColor == 0){
 switch(i.sprite_index){
 	case spr_needle_blue:
 	// when needle_blue
-	i.y = 704;
+	i.y = 664;
 	case spr_needle_pink:
 	// when needle_pink
-	i.y = 704;
+	i.y = 664;
 	
 }
 numOfObs --;

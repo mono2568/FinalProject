@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0eb02173-4d37-4e00-bb10-39ed2f358b56",
+            "Value": {
+                "id": "7d34bde5-f7e2-4bd3-8dec-f1dda42122ff",
+                "resourcePath": "sprites\\spr_run_particle_blue2\\spr_run_particle_blue2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1a91d4ca-5c97-4ba4-9863-b8c9465103aa",
             "Value": {
                 "id": "484d40a2-9d10-448a-ac40-a5741c3674f3",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "278efc2e-4174-4cb1-a81e-d9056955ffba",
+            "Value": {
+                "id": "71cfc58e-0c5f-4514-be69-56814bc720b3",
+                "resourcePath": "sounds\\snd_main\\snd_main.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2c88181a-5e81-4269-882e-deb880d12e0d",
             "Value": {
                 "id": "424b9b29-19d2-40f2-9f44-069517faca2c",
@@ -119,11 +135,27 @@
             }
         },
         {
+            "Key": "42af23da-4b5e-4a44-a9fa-fbfbf8ceef39",
+            "Value": {
+                "id": "c9fcb95d-fc63-403a-98e7-040cbaf850d7",
+                "resourcePath": "objects\\obj_obstacle_destroy_effect\\obj_obstacle_destroy_effect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "433bbd26-ffd6-4fc6-812e-24082f91dcc4",
             "Value": {
                 "id": "2a190ed6-c4f1-4c63-872b-b6de3a6bee25",
                 "resourcePath": "views\\433bbd26-ffd6-4fc6-812e-24082f91dcc4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "43edbb88-f39d-4e60-898f-c62cb4a835d3",
+            "Value": {
+                "id": "5ba18179-47f6-4042-b9f2-4591202f376e",
+                "resourcePath": "sounds\\snd_jump\\snd_jump.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -167,14 +199,6 @@
             }
         },
         {
-            "Key": "5ba9c597-0179-4396-aa75-7e64b84f6dd6",
-            "Value": {
-                "id": "94d31c5d-6a3e-48f6-843d-95e9a26b6092",
-                "resourcePath": "objects\\obj_needle\\obj_needle.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "637b7556-ad58-480d-b33c-79fd63aa3eac",
             "Value": {
                 "id": "37a57291-fcd4-4205-9db0-f9d25c70cf6c",
@@ -202,7 +226,7 @@
             "Key": "702dcd31-3b4a-4367-b051-3c1c5abf2669",
             "Value": {
                 "id": "98c553ed-42d9-40de-ad58-d53f2bed07c1",
-                "resourcePath": "sprites\\spr_run_particle\\spr_run_particle.yy",
+                "resourcePath": "sprites\\spr_run_particle_pink\\spr_run_particle_pink.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -212,6 +236,14 @@
                 "id": "aa1b883a-0cc2-40c8-8bf7-756a6dd329e3",
                 "resourcePath": "options\\html5\\options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "764eba21-7223-45f5-962d-cc5d6d88d8c1",
+            "Value": {
+                "id": "50759b4a-93d2-43fe-b1f2-87afcdfc0196",
+                "resourcePath": "sprites\\spr_run_particle_pink3\\spr_run_particle_pink3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -250,7 +282,7 @@
             "Key": "84a91fa5-2999-4555-93cb-f8e979ab97a5",
             "Value": {
                 "id": "dc668245-cb8e-4efb-a93a-f25817917367",
-                "resourcePath": "sprites\\spr_run_particle2\\spr_run_particle2.yy",
+                "resourcePath": "sprites\\spr_run_particle_pink2\\spr_run_particle_pink2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -335,6 +367,14 @@
             }
         },
         {
+            "Key": "a9a28f8b-83c5-47f4-b5ce-de3d2b17e5a1",
+            "Value": {
+                "id": "a5539041-0965-451c-ae17-6fd80e4debdf",
+                "resourcePath": "scripts\\scr_ease_out_quint\\scr_ease_out_quint.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b1df0087-3286-4573-baea-0b746e396b1c",
             "Value": {
                 "id": "016d8032-97f5-4723-a7b9-f510f809bf56",
@@ -355,6 +395,14 @@
             "Value": {
                 "id": "8d7121d5-ab05-4a05-8ec6-63a5afc52305",
                 "resourcePath": "scripts\\scr_jump_check\\scr_jump_check.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c5d2ff0a-8ffc-4289-92b7-728d49c89f62",
+            "Value": {
+                "id": "8fe7322a-9ec1-4485-8fd3-c601e9e23c02",
+                "resourcePath": "scripts\\scr_ease_linear\\scr_ease_linear.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -380,6 +428,14 @@
                 "id": "2afec3ba-5e9c-49ea-ab1f-2fdb9f8a7d11",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d2c39e7e-7ac1-4d91-be26-b6b6d56a2f8a",
+            "Value": {
+                "id": "4b3c74ce-95a2-465e-9f16-1e4e603c0454",
+                "resourcePath": "sprites\\spr_run_particle_blue\\spr_run_particle_blue.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -412,6 +468,22 @@
                 "id": "09046fbf-73ec-4a21-889d-b9e0e4ca42b6",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e9a274d3-4d06-4633-85ec-b12a2102cf6a",
+            "Value": {
+                "id": "228ac171-1519-4549-a8a9-17c5d4b2a3e6",
+                "resourcePath": "objects\\obj_piece\\obj_piece.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eaf94179-01a1-41cf-9a94-4a7045e18a32",
+            "Value": {
+                "id": "3a989604-27b1-4b69-836d-9c005f00114f",
+                "resourcePath": "sprites\\spr_run_particle_blue3\\spr_run_particle_blue3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -476,7 +548,9 @@
         "54ade226-0147-43d4-9ea3-1014551f787f",
         "bfe1e695-33c6-42a0-a093-55f24cca85b0",
         "b1df0087-3286-4573-baea-0b746e396b1c",
-        "d2c941d1-987e-4095-8303-09d852be0eea"
+        "d2c941d1-987e-4095-8303-09d852be0eea",
+        "a9a28f8b-83c5-47f4-b5ce-de3d2b17e5a1",
+        "c5d2ff0a-8ffc-4289-92b7-728d49c89f62"
     ],
     "tutorial": ""
 }
