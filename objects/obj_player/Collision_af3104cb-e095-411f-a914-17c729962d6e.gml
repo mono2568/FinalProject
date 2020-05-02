@@ -3,6 +3,9 @@ with(other){
 }
 
 if(collideColor != playerColor){
+	if(global.gameOver = false){
+		audio_play_sound(snd_die,99,false);
+	}
 	global.gameOver = true;
 	grav = 0;
 	global.speedModifier = 0;
@@ -17,9 +20,17 @@ if(collideColor != playerColor){
 	}
 }else{
 	with(other){
-		//destroy the obstacle when the color is same as the player
-		startMove = true;
-		startX = x+30;
-		startY = y;
+		if(sprite_index == spr_needle_large_blue or sprite_index == spr_needle_large_pink){
+			var inst = instance_create_layer(x,y,"effects",obj_explode);
+			inst.sprite_index = sprite_index;
+			audio_play_sound(snd_tackle,80,false);
+			instance_destroy();
+		}else{
+			//destroy the obstacle when the color is same as the player
+			audio_play_sound(snd_kick,70,false);	//sound when kick the obstacle
+			startMove = true;
+			startX = x+30;
+			startY = y;
+		}
 	}
 }

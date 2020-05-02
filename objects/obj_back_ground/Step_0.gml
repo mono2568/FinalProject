@@ -1,3 +1,15 @@
+if(score > 2000){
+	sprite_index = spr_backgorund2;
+}
+if(score > 5000){
+	sprite_index = spr_backgorund3;
+}
+if(score > 8500){
+	sprite_index = spr_backgorund4; 
+}
+if(score > 11500){
+	sprite_index = spr_backgorund5;	
+}
 if(global.gameOver == true){
 	speed = 0;
 }

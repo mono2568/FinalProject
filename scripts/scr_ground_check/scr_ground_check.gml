@@ -6,7 +6,7 @@ if(place_meeting(x,y+1,obj_block)){
 	
 	// if the player wants to jump
 	if(jumpKey || jumpKeyAlt){
-		audio_play_sound(snd_jump,99,false);	//sound effect when jump
+		audio_play_sound(snd_jump,60,false);	//sound effect when jump
 		jumping = true;
 		vspd = -jspd;
 	}

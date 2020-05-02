@@ -4,4 +4,4 @@ vspd = 0;
 jumping = false;
 termVelocity = 50;
 playerColor = 0;	//0 is blue 1 is pink
-audio_play_sound(snd_main,99,true);	//play bgm
+audio_play_sound(snd_main,50,true);	//play bgm
