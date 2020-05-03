@@ -5,6 +5,12 @@ with(other){
 if(collideColor != playerColor){
 	if(global.gameOver = false){
 		audio_play_sound(snd_die,99,false);
+		ini_open("saveData.ini");
+		if(score > ini_read_real("Variables","score",0)){
+			isHighScore = true;
+			ini_write_real("Variables", "score", score); //The first value is a header for that section, the second value is the label for your variable in the INI file, and the third value is the actual variable
+		}
+		ini_close(); //Remember to close the INI or you'll have a memory leak
 	}
 	global.gameOver = true;
 	grav = 0;

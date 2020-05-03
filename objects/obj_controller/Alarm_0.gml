@@ -3,9 +3,8 @@ if(numOfObs <= 0){
 	//default
 	numOfObs = choose(0,1,1,1,2,2,2);
 	if(global.speedModifier > 1.3){
-		numOfObs = choose(1,1,2,2,3,3,4,5,5);
+		numOfObs = choose(0,1,1,1,2,2,2,3,3);
 	}
-	numOfObs = choose(0,1,1,1,2,2,2,3,3);
 	if(global.speedModifier > 1.5){
 		numOfObs = choose(1,1,2,2,3,3,4,5,5);
 	}
