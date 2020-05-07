@@ -7,7 +7,6 @@ duration = 120;
 startX = 0;
 startY = 0;
 destX = room_width*2;
-destY = -100;
 
 //variable for the obstacle movement
 ySpeed = -30;

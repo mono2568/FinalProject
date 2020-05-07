@@ -1,3 +1,4 @@
+//display the high score at the title screen
 draw_set_color(make_color_rgb(54,54,54));
 draw_set_font(fnt_end);
 ini_open("saveData.ini");

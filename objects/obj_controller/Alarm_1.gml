@@ -1,12 +1,13 @@
 //Another alarm for creating obstacle
-show_debug_message("alarm1");
 randomize();
+//decide the number of large needles to create
 if(numOfObs <= 0){
 	numOfObs = choose(0,1,1,1,2,2,2);
 	if(global.speedModifier > 1.2){
 		//for adjusting difficulty
 	}
 }
+//create obstacle
 var i = instance_create_layer(room_width + 100 , room_height - 75, "Instances", obj_obstacle);
 
 
@@ -31,6 +32,7 @@ switch(i.sprite_index){
 	
 }
 numOfObs --;
+//stop creating when the game is over
 if(global.gameOver) exit;
 
 if(numOfObs > 0){

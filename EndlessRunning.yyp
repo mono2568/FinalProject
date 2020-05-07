@@ -199,14 +199,6 @@
             }
         },
         {
-            "Key": "42af23da-4b5e-4a44-a9fa-fbfbf8ceef39",
-            "Value": {
-                "id": "c9fcb95d-fc63-403a-98e7-040cbaf850d7",
-                "resourcePath": "objects\\obj_obstacle_destroy_effect\\obj_obstacle_destroy_effect.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "433bbd26-ffd6-4fc6-812e-24082f91dcc4",
             "Value": {
                 "id": "2a190ed6-c4f1-4c63-872b-b6de3a6bee25",
